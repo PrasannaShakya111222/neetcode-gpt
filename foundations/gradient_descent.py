@@ -7,6 +7,5 @@ class Solution:
 
         x=init
         for _ in range(iterations):
-            gradient =2*x
-            x =x-learning_rate*gradient
+            x =x-learning_rate*2*x
         return round(x,5)
